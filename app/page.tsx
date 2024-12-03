@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Banner from './components/banner'
 import Section2 from './components/section2'
 import Section8 from './components/section8'

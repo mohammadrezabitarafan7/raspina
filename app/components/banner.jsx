@@ -1,7 +1,4 @@
 import Image from 'next/image'
-import back from '../images/logo-raspina.png'
-import chair from '../images/chair1.png'
-import table from '../images/t2.png'
 import bb2 from '../images/bb2.png'
 import { Divider } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
