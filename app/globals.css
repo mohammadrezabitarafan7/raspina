@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: 'irans';
+  src: url('./fonts//irans.ttf');
+
+}
+@font-face {
+  font-family: 'iransbold';
+  src: url('./fonts//IRANSans\(FaNum\)_Black.ttf')
+}
+@font-face {
+  font-family: 'falsafebold';
+  src: url('./fonts/Falsafeh_Bold.ttf')
+}
+
+body {
+ 
+  font-family: 'irans';
+
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
